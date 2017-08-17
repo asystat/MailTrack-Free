@@ -20,13 +20,13 @@ function removeAds(){
     clickAllElementsByClass("close");
 
 
-    var eee = document.getElementsByClassName("mt-tool-email-notification");
+    /*var eee = document.getElementsByClassName("mt-tool-email-notification");
     for(i=0; i<eee.length;i++){
         var elem = eee[i].getElementsByClassName("J-Z-I-Jp");
         for(var j=0;j<elem.length;j++){
             elem[j].click();
         }
-    }
+    }*/
 }
 
 function clickAllElementsByClass(daClass){
